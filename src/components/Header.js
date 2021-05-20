@@ -1,9 +1,12 @@
 import Image from "next/image";
+import { LocationMarkerIcon } from "@heroicons/react/solid";
+
 import {
   MenuIcon,
   SearchIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
+import styled from "styled-components";
 
 function Header() {
   return (
@@ -17,6 +20,10 @@ function Header() {
             objectFit="contain"
             className="cursor-pointer"
           />
+        </div>
+        <div className=" ml-2 cursor-pointer mr-2 hover:text-color-black">
+          <p className="text-white mb-0 font-bold text-{5} mr-2">Deliver To</p>
+          <LocationMarkerIcon className="w-8 text-white mr-3 -ml-1" />
         </div>
 
         {/*Search*/}
@@ -49,7 +56,6 @@ function Header() {
           </div>
         </div>
       </div>
-
       {/*bottom nav*/}
       <div className="flex items-center space-x-3 p-2 pl-6 text-white text-sm bg-amazon_blue-light">
         <p className="link flex items-center">
@@ -65,6 +71,11 @@ function Header() {
         <p className="link hidden lg:inline-flex">Buy Again</p>
         <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
         <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+
+        <p className="link hidden lg:inline-flex ml-1000">
+          {" "}
+          Amazon covid 19 Response
+        </p>
       </div>
     </header>
   );
