@@ -24,6 +24,9 @@ function Header() {
         <div className=" ml-2 cursor-pointer mr-2 hover:text-color-black">
           <p className="text-white mb-0 font-bold text-{5} mr-2">Deliver To</p>
           <LocationMarkerIcon className="w-8 text-white mr-3 -ml-1" />
+          <p className="text-white mx-8 -my-7  hover:underline text-sm mb-2">
+            India
+          </p>
         </div>
 
         {/*Search*/}
