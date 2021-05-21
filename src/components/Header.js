@@ -74,13 +74,13 @@ function Header() {
         <p className="link hidden lg:inline-flex">Buy Again</p>
         <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
         <p className="link hidden lg:inline-flex">Health & Personal Care</p>
+      </div>
 
-        <div>
-          <p className="link hidden lg:inline flex  flex-wrap   ">
-            {" "}
-            Amazon covid 19 Response
-          </p>
-        </div>
+      <div className="float-right -mt-8">
+        <button className="hidden lg:inline flex  text-white font-bold hover:border-2 flex-wrap mr-3   ">
+          {" "}
+          Amazon Response to COVID-19
+        </button>
       </div>
     </header>
   );
