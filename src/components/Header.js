@@ -75,10 +75,12 @@ function Header() {
         <p className="link hidden lg:inline-flex">Shopper Toolkit</p>
         <p className="link hidden lg:inline-flex">Health & Personal Care</p>
 
-        <p className="link hidden lg:inline-flex ml-1000">
-          {" "}
-          Amazon covid 19 Response
-        </p>
+        <div>
+          <p className="link hidden lg:inline flex  flex-wrap   ">
+            {" "}
+            Amazon covid 19 Response
+          </p>
+        </div>
       </div>
     </header>
   );

@@ -85,6 +85,20 @@ function Footer() {
           United States
         </button>
       </div>
+      <div className="bg-amazon_blue text-white ">
+        <div className="justify-center text-center flex  bg-amazon_blue">
+          <p className="mx-4 my-10 hover:underline cursor-pointer">
+            Conditions of Use{" "}
+          </p>
+          <p className="mx-4 my-10 hover:underline cursor-pointer">
+            Privacy Notice
+          </p>
+          <p className="mx-4 my-10 hover:underline cursor-pointer">
+            Interest-Based Ads
+          </p>
+          <p className="mx-4 my-10  none">© 1996-2021, Amazon.com, Inc.</p>
+        </div>
+      </div>
     </div>
   );
 }
