@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex bg-amazon_blue w-1128 h-800 text-white ">
+    <div className=" hidden flex bg-amazon_blue w-1128 h-800 text-white ">
       <div className="ml-40  text-center relative flex flex-col m-2  z-30 p-10 cursor-pointer">
         <p className="font-extrabold"> Get to Know Us</p>
         <br />
