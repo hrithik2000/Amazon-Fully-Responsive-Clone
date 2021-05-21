@@ -38,11 +38,19 @@ function Header() {
           <SearchIcon className="h-12 p-4" />
         </div>
         {/*right */}
+        <div>
+          <img
+            width="50px"
+            height="40px"
+            src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+            className="mr-2 items-center ml-4  -mr-6  items-center hover:border-2 justify-center"
+          />
+        </div>
 
         <div className="text-white flex items-center text-xs space-x-6  mx-6 whitespace-nowrap">
           <div className="link">
-            <p>Hello Hrithik Lets Boom</p>
-            <p className="font-extrabold md:text-sm">Account & Lists</p>
+            <p className="ml-4">Hello Hrithik Lets Boom</p>
+            <p className="font-extrabold md:text-sm ml-4 ">Account & Lists</p>
           </div>
           <div className="link">
             <p>Returns</p>
@@ -59,6 +67,7 @@ function Header() {
           </div>
         </div>
       </div>
+
       {/*bottom nav*/}
       <div className="flex items-center space-x-3 p-2 pl-6 text-white text-sm bg-amazon_blue-light">
         <p className="link flex items-center">
