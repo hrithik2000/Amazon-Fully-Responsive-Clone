@@ -16,7 +16,10 @@
     "firebase": "^8.6.2",
     "firebase-admin": "^9.8.0",
     "lodash": "^4.17.21",
+<<<<<<< HEAD
     "micro": "^9.3.4",
+=======
+>>>>>>> edc122ad62fa08fc7d11849dcb13b1c280f12200
     "moment": "^2.29.1",
     "next": "latest",
     "next-auth": "^3.23.2",

@@ -3,9 +3,12 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 export default async (req, res) => {
   const { items, email } = req.body;
 
+<<<<<<< HEAD
   console.log(items);
   console.log(email);
 
+=======
+>>>>>>> edc122ad62fa08fc7d11849dcb13b1c280f12200
   const transformedItems = items.map((item) => ({
     description: item.description,
     quantity: 1,

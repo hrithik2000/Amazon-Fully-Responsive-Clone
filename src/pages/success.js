@@ -4,7 +4,10 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Header from "../components/Header";
 import { clearBasket } from "../slices/basketSlice";
+<<<<<<< HEAD
 import Footer from "../components/Footer";
+=======
+>>>>>>> edc122ad62fa08fc7d11849dcb13b1c280f12200
 
 function success() {
   const router = useRouter();
@@ -38,7 +41,10 @@ function success() {
           </button>
         </div>
       </main>
+<<<<<<< HEAD
       <Footer />
+=======
+>>>>>>> edc122ad62fa08fc7d11849dcb13b1c280f12200
     </div>
   );
 }
